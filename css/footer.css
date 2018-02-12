@@ -1,0 +1,28 @@
+/*iniciodo rodapé */
+.footer-container{
+	width: 100%;
+	height: 100px;
+	background-color: #444;
+	
+}
+
+.footer {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	color: grey;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+.footer a {
+	color: rgba(0,255,255,.4);
+}
+
+.footer a:hover{
+	color: white;
+}
+
+
+/*fim do css do rodapé*/
