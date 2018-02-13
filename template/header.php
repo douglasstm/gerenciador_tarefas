@@ -28,6 +28,7 @@
 			?>
 
 		</div>
+		<a href="index.php"><img id="logout" src="img/logout.svg" width="30px" data-toggle="tooltip" data-placement="bottom" title="Sair"></a>
 	</div>
 	<div class="body-container">
 		<div class="body-content">

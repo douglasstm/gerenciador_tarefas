@@ -1,13 +1,3 @@
-<?php
-
-if ($_POST) : ?>
-  <div class="alert alert-success alert-dismissable fade in">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
-    <strong>Tarefa cadastrada com sucesso!</strong> <a href="tarefas.php" class="alert-link"> Ver minhas tarefas</a>
-  </div>
-<?php
-endif;
-?>
 
 
 

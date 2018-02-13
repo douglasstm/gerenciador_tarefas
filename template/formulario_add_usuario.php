@@ -10,13 +10,7 @@
 
 	<div id="container">
 
-		<div id="titulo-login"><h1>Seja Bem Vindo. Faça login para continuar</h1></div>
-
-		<?php  if ($_POST) : ?> 
-
-			<div><span>Usuário ou senha inválidos</span></div>
-
-		<?php endif ?>
+		<div id="titulo-login"><h1>Seja Bem Vindo. Cadastra-se para continuar</h1></div>
 
 		<div id="corpo">
 
@@ -28,12 +22,15 @@
 			<div class="margin-bottom"></div>
 
 			<form method="post">
-				
-				<label class="form-label" for="nome">Nome:</label><p class="txt"></p>
-				<input class="form-input" type="text" id="nome" name="nome" required>
+
+				<label class="form-label" for="nome">Nome Completo:</label>
+				<input class="form-input" type="text" id="nome-completo" name="nome-completo">
+
+				<label class="form-label" for="nome">Usuario:</label>
+				<input class="form-input" type="text" id="nome" name="nome">
 
 				<label class="form-label" for="senha">Senha:</label>
-				<input class="form-input" type="password" id="senha" name="senha" required>
+				<input class="form-input" type="password" id="senha" name="senha">
 
 				<!-- <button type="reset" class="botao margin-top" id="btn-limpar">Limpar</button> -->
 				<button type="submit" class="botao margin-top" id="btn-enviar">Entrar</button>

@@ -54,4 +54,10 @@
 	top: -2px;
 }
 
+#logout {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+
 /*fim do cabeçalho*/
